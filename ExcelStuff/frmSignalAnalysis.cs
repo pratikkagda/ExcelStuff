@@ -9,12 +9,6 @@ using System.Collections.Generic;
 
 namespace ExcelStuff
 {
-    public class ScriptBuySell
-    {
-        public string ScriptName { get; set; }
-        public bool IsBuy { get; set; }
-    }
-
     public partial class frmSignalAnalysis : Form
     {
         private List<ScriptBuySell> _scriptBuySell;
